@@ -53,10 +53,13 @@ way to access it.</p>
 
 <h2>Third-party services</h2>
 <ul>
-  <li><strong>The Movie Database (TMDB)</strong> - all show/movie information, posters,
-      cast info, and trailer links come from TMDB's API. Searching or browsing sends your
-      search terms to TMDB, but not your account information. This product uses the TMDB
-      API but is not endorsed or certified by TMDB.</li>
+  <li><strong>TheTVDB</strong> - all show/movie information, posters, cast info, and
+      episode data come from TheTVDB's API. Searching or browsing sends your search
+      terms to TheTVDB, but not your account information. This product uses the TheTVDB
+      API but is not endorsed or certified by TheTVDB.</li>
+  <li><strong>The Movie Database (TMDB)</strong> - used narrowly, only to distinguish a
+      "Canceled" show from one that's simply "Ended" (data TheTVDB doesn't separately
+      track) - no account information is sent, only the show's identifier.</li>
   <li><strong>Supabase</strong> - our backend provider, used for account sign-in and
       storing the data described above.</li>
 </ul>
